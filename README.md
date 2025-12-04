@@ -1,55 +1,55 @@
 # TOOLTIK
 
 
-ToolTok Full-Stack Structure (Solo MVP)
-tooltok/
-├── backend/                  # Node.js + Express backend
-│   ├── config/
-│   │   └── db.js             # MongoDB connection
-│   ├── controllers/
-│   │   ├── authController.js
-│   │   ├── userController.js
-│   │   └── videoController.js
-│   ├── middleware/
-│   │   └── authMiddleware.js
-│   ├── models/
-│   │   ├── User.js
-│   │   └── Video.js
-│   ├── routes/
-│   │   ├── authRoutes.js
-│   │   ├── userRoutes.js
-│   │   └── videoRoutes.js
-│   ├── seed/
-│   │   └── seed.js           # Seed fake users + videos
-│   ├── uploads/              # For video uploads (dev only)
-│   ├── .env
-│   ├── package.json
-│   └── server.js
-│
-├── frontend/                 # React Native (Expo) frontend
-│   ├── assets/
-│   │   ├── images/
-│   │   └── videos/           # Sample videos for local testing
-│   ├── components/           # Reusable UI components
-│   │   ├── VideoCard.js
-│   │   ├── ProfileCard.js
-│   │   └── Navbar.js
-│   ├── navigation/           # React Navigation setup
-│   │   └── AppNavigator.js
-│   ├── screens/              # App screens
-│   │   ├── LoginScreen.js
-│   │   ├── RegisterScreen.js
-│   │   ├── FeedScreen.js
-│   │   ├── ProfileScreen.js
-│   │   └── UploadScreen.js
-│   ├── services/             # API requests
-│   │   └── api.js
-│   ├── App.js
-│   ├── package.json
-│   └── app.json
-│
-├── README.md
-└── .gitignore
+##ToolTok Full-Stack Structure (Solo MVP)
+#tooltok/
+#├── backend/                  # Node.js + Express backend
+#│   ├── config/
+#│   │   └── db.js             # MongoDB connection
+#│   ├── controllers/
+#│   │   ├── authController.js
+#│   │   ├── userController.js
+#│   │   └── videoController.js
+#│   ├── middleware/
+#│   │   └── authMiddleware.js
+#│   ├── models/
+#│   │   ├── User.js
+#│   │   └── Video.js
+#│   ├── routes/
+#│   │   ├── authRoutes.js
+#│   │   ├── userRoutes.js
+#│   │   └── videoRoutes.js
+#│   ├── seed/
+#│   │   └── seed.js           # Seed fake users + videos
+#│   ├── uploads/              # For video uploads (dev only)
+#│   ├── .env
+#│   ├── package.json
+#│   └── server.js
+#│
+#├── frontend/                 # React Native (Expo) frontend
+#│   ├── assets/
+#│   │   ├── images/
+#│   │   └── videos/           # Sample videos for local testing
+#│   ├── components/           # Reusable UI components
+#│   │   ├── VideoCard.js
+#│   │   ├── ProfileCard.js
+#│   │   └── Navbar.js
+#│   ├── navigation/           # React Navigation setup
+#│   │   └── AppNavigator.js
+#│   ├── screens/              # App screens
+#│   │   ├── LoginScreen.js
+#│   │   ├── RegisterScreen.js
+#│   │   ├── FeedScreen.js
+#│   │   ├── ProfileScreen.js
+#│   │   └── UploadScreen.js
+#│   ├── services/             # API requests
+#│   │   └── api.js
+#│   ├── App.js
+#│   ├── package.json
+#│   └── app.json
+#│
+#├── README.md
+#└── .gitignore
 
 Explanation of Each Folder
 1. Backend
